@@ -1,0 +1,8 @@
+{
+  "components": 29,
+  "electrical_pins": 105,
+  "active_source_nets": 23,
+  "pin_net_mismatches": [],
+  "source": "../imu_to_dxl.eprj2",
+  "validation": "Source pin assignments versus native KiCad schematic netlist; PCB synchronized to that same netlist."
+}

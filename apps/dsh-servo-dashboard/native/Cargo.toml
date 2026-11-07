@@ -1,0 +1,16 @@
+[package]
+name = "servo-worker"
+version = "1.0.2"
+edition = "2024"
+
+[workspace]
+
+[features]
+pty-tests = []
+
+[dependencies]
+anyhow = "1"
+rustypot = "=1.6.0"
+serialport = { version = "4.8", default-features = false }
+serde_json = "1"
+signal-hook = "0.3"

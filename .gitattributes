@@ -1,0 +1,14 @@
+# Preserve document, image, archive and manufacturing artifact bytes.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.tgz binary
+*.eprj2 binary
+*.step binary
+*.stl binary
+*.dxf binary
+
+# Generated previews remain readable XML; do not reformat them on import.
+hardware/imu_to_dxl/kicad/previews/*.svg linguist-generated=true

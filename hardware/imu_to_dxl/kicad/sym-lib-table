@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "imu_to_dxl") (type "KiCad") (uri "${KIPRJMOD}/imu_to_dxl.kicad_sym") (options "") (descr "Recovered replica symbols with pin electrical types")))

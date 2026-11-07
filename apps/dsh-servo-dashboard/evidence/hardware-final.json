@@ -1,0 +1,22 @@
+{
+  "source": "Installed servo_dashboard tool results in the current DSH session; physical OpenRB-150, not simulation",
+  "motionTestBundleVersion": "1.0.3",
+  "deliveredBundleVersion": "1.0.4",
+  "workerVersion": "1.0.2",
+  "workerSha256": "239b9b9cad0f56f4d0dc54ad4a79a87be4a01f3dd339885240771b189d45d575",
+  "deltaAfterMotionTest": "1.0.4 only fixes Client locale effect disposal and updates displayed bundle version. Native binary and hardware command logic unchanged. Two remove/reinstall cycles verified live Client sidebar registration.",
+  "port": "/dev/cu.usbmodem1101",
+  "baud": 1000000,
+  "discoveredIds": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+  "fullScanCompletedAt": 1794086934781,
+  "id1BeforeFinalTest": {"positionTicks":2076,"positionDeg":182.4609375,"torque":false,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0},
+  "outbound": {"commandId":"final-id1-outbound-184-v103","acceptedAt":1794086938329,"completedAt":1794086938695,"targetTicks":2094,"targetDeg":184.04296875,"presentTicksAtVerification":2086,"presentDegAtVerification":183.33984375,"arrivalVerified":true,"readbackVerified":true,"unknown":false},
+  "holdingHeartbeat": {"at":1794086942228,"positionTicks":2090,"positionDeg":183.69140625,"velocityRpm":0.229,"torque":true,"controlledIds":[1]},
+  "continuousReturn": {"commandId":"final-id1-return-2071-v103","acceptedAt":1794086946239,"completedAt":1794086946606,"targetTicks":2071,"targetDeg":182.021484375,"presentTicksAtVerification":2081,"presentDegAtVerification":182.900390625,"arrivalVerified":true,"readbackVerified":true,"unknown":false,"noIntermediateReleaseRequested":true},
+  "cleanup": "The next heartbeat arrived after the existing 5-second lease expired. It returned renewed:false. Fresh status confirmed touched-only cleanup and original RAM restoration. No replay or extra motion followed.",
+  "id1AfterCleanup": {"at":1794086967612,"positionTicks":2077,"positionDeg":182.548828125,"torque":false,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0,"controlledIds":[],"error":null,"errorFromOriginal2071Deg":0.52734375},
+  "untouched11": {"torque":true,"goalTicks":2048,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0},
+  "untouched12": {"torque":true,"goalTicks":1866,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0},
+  "finalReconnect": {"at":1794087208106,"bundleVersion":"1.0.4","workerVersion":"1.0.2","onlineCount":15,"controlledIds":[],"error":null,"mode":"read-only monitoring; full scan required before a new manual move"},
+  "limits": ["All physical motion commands and cleanup writes targeted only ID1", "IDs2..15 were read-only during development", "Arrival means within1degree, not mechanical settling", "No actual human release of untouched ID11/12 was tested; that path passed PTY tests only", "Browser rendering, screenshot and pointer/keyboard operation were not tested; live Client registration verified"]
+}

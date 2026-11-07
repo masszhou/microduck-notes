@@ -1,0 +1,38 @@
+# Operating-system files
+.DS_Store
+._*
+
+# Dependencies, build output and caches
+node_modules/
+target/
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Local application output; rebuild binaries from the committed sources
+/apps/*/logs/
+/apps/dsh-servo-dashboard/artifacts/
+/apps/dsh-servo-dashboard/bin/servo-worker
+/apps/mac-servo-bench/mac-servo-bench-linux-arm64
+
+# Agent scratch state, not product documentation
+/apps/dsh-servo-dashboard/CHECKPOINT.md
+/apps/dsh-servo-dashboard/native/WRITE-PROBE.md
+
+# KiCad machine state and temporary backups; keep source and manufacturing files
+*.kicad_prl
+~*.lck
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+fp-info-cache

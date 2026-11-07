@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>../imu_to_dxl.kicad_sch</source>
+    <date>2026-09-13T09:56:37</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>imu_to_dxl - Microduck replica</title>
+        <company>Derived from microduck-replica, 2026-09-08</company>
+        <rev>K1</rev>
+        <date>2026-09-13</date>
+        <source>imu_to_dxl.kicad_sch</source>
+        <comment number="1" value="Prototype / no hardware validation. J3: 4=RX, 5=TX, 6=3V3."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>imu_to_dxl:C1_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">imu_to_dxl:C1_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C1" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8c9e2d3-ba67-52e1-82b9-cb1bc07fbeff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>imu_to_dxl:C2_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">imu_to_dxl:C2_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C2" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d93f7b8-d9a1-5057-8313-6e9331dd164c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>imu_to_dxl:C3_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">imu_to_dxl:C3_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C3" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>993b21c3-0ae5-5a3f-abfb-d58bbac4203b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>imu_to_dxl:C4_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">imu_to_dxl:C4_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C4" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad34c141-4732-5f5d-8e38-7f8c2733e6ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF/16V</value>
+      <footprint>imu_to_dxl:C5_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CL10A475KO8NNNC/20375.html</datasheet>
+      <fields>
+        <field name="LCSC">C19666</field>
+        <field name="Manufacturer Part">CL10A475KO8NNNC</field>
+        <field name="Footprint">imu_to_dxl:C5_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CL10A475KO8NNNC/20375.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C5" description=""/>
+      <property name="LCSC" value="C19666"/>
+      <property name="Manufacturer Part" value="CL10A475KO8NNNC"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa9aefe4-2563-5577-9d46-5dcc28477d67</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>10uF/25V</value>
+      <footprint>imu_to_dxl:C6_C0805</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CL21A106KAYNNNE/16532.html</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Manufacturer Part">CL21A106KAYNNNE</field>
+        <field name="Footprint">imu_to_dxl:C6_C0805</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CL21A106KAYNNNE/16532.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C6" description=""/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Manufacturer Part" value="CL21A106KAYNNNE"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3894055-0a69-5c63-98b9-b2a21013febc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>10uF/10V</value>
+      <footprint>imu_to_dxl:C7_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CL10A106KP8NNNC/20411.html</datasheet>
+      <fields>
+        <field name="LCSC">C19702</field>
+        <field name="Manufacturer Part">CL10A106KP8NNNC</field>
+        <field name="Footprint">imu_to_dxl:C7_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CL10A106KP8NNNC/20411.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C7" description=""/>
+      <property name="LCSC" value="C19702"/>
+      <property name="Manufacturer Part" value="CL10A106KP8NNNC"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f253e5b9-6bf5-5a10-a9c8-fd9233a95a28</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>imu_to_dxl:C8_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">imu_to_dxl:C8_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C8" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>293e007f-b5d6-50bf-8375-22f312b37be3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>imu_to_dxl:C9_C0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="Manufacturer Part">CC0603KRX7R9BB104</field>
+        <field name="Footprint">imu_to_dxl:C9_C0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="C9" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Manufacturer Part" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>753a1b41-2eca-5b6c-baee-ef7f964a9ce7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SMF12A</value>
+      <footprint>imu_to_dxl:D1_SOD-123FL_L2_7-W1_8-LS3_7-RD</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/SMF12A/3328926.html</datasheet>
+      <fields>
+        <field name="LCSC">C2943870</field>
+        <field name="Manufacturer Part">SMF12A</field>
+        <field name="Footprint">imu_to_dxl:D1_SOD-123FL_L2_7-W1_8-LS3_7-RD</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/SMF12A/3328926.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="D1" description=""/>
+      <property name="LCSC" value="C2943870"/>
+      <property name="Manufacturer Part" value="SMF12A"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1c0687e-1834-5bf8-b09a-2f27c668ea7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>BZT52C5V1</value>
+      <footprint>imu_to_dxl:D2_SOD-123_L2_7-W1_6-LS3_7-RD</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/BZT52C5V1-7-F/162928.html</datasheet>
+      <fields>
+        <field name="LCSC">C151588</field>
+        <field name="Manufacturer Part">BZT52C5V1-7-F</field>
+        <field name="Footprint">imu_to_dxl:D2_SOD-123_L2_7-W1_6-LS3_7-RD</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/BZT52C5V1-7-F/162928.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="D2" description=""/>
+      <property name="LCSC" value="C151588"/>
+      <property name="Manufacturer Part" value="BZT52C5V1-7-F"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8364dd6b-2f21-5524-9faf-f9a5cb6c1684</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>MF-NSMF020X-2</value>
+      <footprint>imu_to_dxl:F1_F1206</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/MF-NSMF020X-2/211705.html</datasheet>
+      <fields>
+        <field name="LCSC">C210358</field>
+        <field name="Manufacturer Part">MF-NSMF020X-2</field>
+        <field name="Footprint">imu_to_dxl:F1_F1206</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/MF-NSMF020X-2/211705.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="F1" description=""/>
+      <property name="LCSC" value="C210358"/>
+      <property name="Manufacturer Part" value="MF-NSMF020X-2"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1f878e8-7a37-5bd0-aaa5-d5dcabf0cb61</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>B3B-EH-A</value>
+      <footprint>imu_to_dxl:J1_CONN-TH_B3B-EH-A-LF-SN</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/B3B-EH-A(LF)(SN)/171639.html</datasheet>
+      <fields>
+        <field name="LCSC">C160259</field>
+        <field name="Manufacturer Part">B3B-EH-A(LF)(SN)</field>
+        <field name="Footprint">imu_to_dxl:J1_CONN-TH_B3B-EH-A-LF-SN</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/B3B-EH-A(LF)(SN)/171639.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="J1" description=""/>
+      <property name="LCSC" value="C160259"/>
+      <property name="Manufacturer Part" value="B3B-EH-A(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2870164c-0610-5faa-898e-968c8f651131</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>B3B-EH-A</value>
+      <footprint>imu_to_dxl:J2_CONN-TH_B3B-EH-A-LF-SN</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/B3B-EH-A(LF)(SN)/171639.html</datasheet>
+      <fields>
+        <field name="LCSC">C160259</field>
+        <field name="Manufacturer Part">B3B-EH-A(LF)(SN)</field>
+        <field name="Footprint">imu_to_dxl:J2_CONN-TH_B3B-EH-A-LF-SN</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/B3B-EH-A(LF)(SN)/171639.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="J2" description=""/>
+      <property name="LCSC" value="C160259"/>
+      <property name="Manufacturer Part" value="B3B-EH-A(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bc7253f-f3fd-5239-bcda-de93f264ace3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>SWD + UART</value>
+      <footprint>imu_to_dxl:J3_HDR-TH_6P-P2_54-V-M</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/PZ254V-11-06P/502961.html</datasheet>
+      <fields>
+        <field name="LCSC">C492405</field>
+        <field name="Manufacturer Part">PZ254V-11-06P</field>
+        <field name="Footprint">imu_to_dxl:J3_HDR-TH_6P-P2_54-V-M</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/PZ254V-11-06P/502961.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="J3" description=""/>
+      <property name="LCSC" value="C492405"/>
+      <property name="Manufacturer Part" value="PZ254V-11-06P"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78aab2e5-24fc-59a4-9904-b5d9c687ae0f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>B3B-PH-K-S</value>
+      <footprint>imu_to_dxl:J4_CONN-TH_B3B-PH-K-S</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/B3B-PH-K-S(LF)(SN)/142632.html</datasheet>
+      <fields>
+        <field name="LCSC">C131339</field>
+        <field name="Manufacturer Part">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Footprint">imu_to_dxl:J4_CONN-TH_B3B-PH-K-S</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/B3B-PH-K-S(LF)(SN)/142632.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="J4" description=""/>
+      <property name="LCSC" value="C131339"/>
+      <property name="Manufacturer Part" value="B3B-PH-K-S(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>974583d2-b81d-5778-aaa0-4378c216c53c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>B3B-PH-K-S</value>
+      <footprint>imu_to_dxl:J5_CONN-TH_B3B-PH-K-S</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/B3B-PH-K-S(LF)(SN)/142632.html</datasheet>
+      <fields>
+        <field name="LCSC">C131339</field>
+        <field name="Manufacturer Part">B3B-PH-K-S(LF)(SN)</field>
+        <field name="Footprint">imu_to_dxl:J5_CONN-TH_B3B-PH-K-S</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/B3B-PH-K-S(LF)(SN)/142632.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="J5" description=""/>
+      <property name="LCSC" value="C131339"/>
+      <property name="Manufacturer Part" value="B3B-PH-K-S(LF)(SN)"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85921311-ddfd-5be1-a1a4-056861d7897d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>imu_to_dxl:R1_R0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">imu_to_dxl:R1_R0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="R1" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c3ef5b2-588e-5d63-bb8f-908ca030f1f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>imu_to_dxl:R2_R0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">imu_to_dxl:R2_R0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="R2" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46a4ea03-96e0-5cca-8c7b-a0c272e59c59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>33R</value>
+      <footprint>imu_to_dxl:R3_R0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/0603WAF330JT5E/23867.html</datasheet>
+      <fields>
+        <field name="LCSC">C23140</field>
+        <field name="Manufacturer Part">0603WAF330JT5E</field>
+        <field name="Footprint">imu_to_dxl:R3_R0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/0603WAF330JT5E/23867.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="R3" description=""/>
+      <property name="LCSC" value="C23140"/>
+      <property name="Manufacturer Part" value="0603WAF330JT5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed560d25-7d4a-52da-b517-7fbc235718a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>imu_to_dxl:R4_R0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">imu_to_dxl:R4_R0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="R4" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4c6387d-d560-5e2d-afd1-b265299374d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>imu_to_dxl:R5_R0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">imu_to_dxl:R5_R0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="R5" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2a78ee2-2264-5dc0-a34d-ea70a5dfaff5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>150R</value>
+      <footprint>imu_to_dxl:R6_R0603</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22808</field>
+        <field name="Manufacturer Part">0603WAF1500T5E</field>
+        <field name="Footprint">imu_to_dxl:R6_R0603</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="R6" description=""/>
+      <property name="LCSC" value="C22808"/>
+      <property name="Manufacturer Part" value="0603WAF1500T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ff6afee-2d2f-5a3a-a6b2-b6f751c3ecfb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>imu_to_dxl:R7_R0603</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="Manufacturer Part">0603WAF1002T5E</field>
+        <field name="Footprint">imu_to_dxl:R7_R0603</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="R7" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Manufacturer Part" value="0603WAF1002T5E"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24988583-af27-5f7c-987b-6959f54c42f9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G031F8P6</value>
+      <footprint>imu_to_dxl:U1_TSSOP-20_L6_5-W4_4-P0_65-LS6_4-BL</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/STM32G031F8P6/549612.html</datasheet>
+      <fields>
+        <field name="LCSC">C529334</field>
+        <field name="Manufacturer Part">STM32G031F8P6</field>
+        <field name="Footprint">imu_to_dxl:U1_TSSOP-20_L6_5-W4_4-P0_65-LS6_4-BL</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/STM32G031F8P6/549612.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="U1" description=""/>
+      <property name="LCSC" value="C529334"/>
+      <property name="Manufacturer Part" value="STM32G031F8P6"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34c97f4b-1ae2-55fc-bca2-8c779b40cee0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>LSM6DSV16XTR</value>
+      <footprint>imu_to_dxl:U2_LGA-14_L3_0-W2_5-P0_50-BR</footprint>
+      <datasheet>https://item.szlcsc.com/datasheet/LSM6DSV16XTR/5993815.html</datasheet>
+      <fields>
+        <field name="LCSC">C5267406</field>
+        <field name="Manufacturer Part">LSM6DSV16XTR</field>
+        <field name="Footprint">imu_to_dxl:U2_LGA-14_L3_0-W2_5-P0_50-BR</field>
+        <field name="Datasheet">https://item.szlcsc.com/datasheet/LSM6DSV16XTR/5993815.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="U2" description=""/>
+      <property name="LCSC" value="C5267406"/>
+      <property name="Manufacturer Part" value="LSM6DSV16XTR"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cad14219-b44b-5b7b-86a8-6defe63a7f4b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVC2G241DCUR</value>
+      <footprint>imu_to_dxl:U3_VSSOP-8_L2_3-W2_0-P0_50-LS3_1-BR</footprint>
+      <datasheet>https://www.ti.com/cn/lit/gpn/sn74lvc2g241</datasheet>
+      <fields>
+        <field name="LCSC">C10430</field>
+        <field name="Manufacturer Part">SN74LVC2G241DCUR</field>
+        <field name="Footprint">imu_to_dxl:U3_VSSOP-8_L2_3-W2_0-P0_50-LS3_1-BR</field>
+        <field name="Datasheet">https://www.ti.com/cn/lit/gpn/sn74lvc2g241</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="U3" description=""/>
+      <property name="LCSC" value="C10430"/>
+      <property name="Manufacturer Part" value="SN74LVC2G241DCUR"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5455966-04ff-5dd1-9b57-5590f6046590</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>HT7533-1</value>
+      <footprint>imu_to_dxl:U4_SOT-89-3_L4_5-W2_5-P1_50-LS4_2-BR</footprint>
+      <fields>
+        <field name="LCSC">C14289</field>
+        <field name="Manufacturer Part">HT7533-1</field>
+        <field name="Footprint">imu_to_dxl:U4_SOT-89-3_L4_5-W2_5-P1_50-LS4_2-BR</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="U4" description=""/>
+      <property name="LCSC" value="C14289"/>
+      <property name="Manufacturer Part" value="HT7533-1"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d143224-bf28-5c01-894a-c016fe5c492e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X1">
+      <value>16MHz</value>
+      <footprint>imu_to_dxl:X1_OSC-SMD_4P-L3_2-W2_5-BL_SIT8008BI</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20220907/F3D32445DFC7AC1248D3F5BA86C8BFFE.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C387369</field>
+        <field name="Manufacturer Part">S3D16.000000B20F30T</field>
+        <field name="Footprint">imu_to_dxl:X1_OSC-SMD_4P-L3_2-W2_5-BL_SIT8008BI</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20220907/F3D32445DFC7AC1248D3F5BA86C8BFFE.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="imu_to_dxl" part="X1" description=""/>
+      <property name="LCSC" value="C387369"/>
+      <property name="Manufacturer Part" value="S3D16.000000B20F30T"/>
+      <property name="Sheetname" value="imu_to_dxl"/>
+      <property name="Sheetfile" value="imu_to_dxl.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4e63406-78fa-5282-87dc-ccffe897dcc9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="imu_to_dxl" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">4.7uF/16V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C6">
+      <fields>
+        <field name="Reference">C6</field>
+        <field name="Value">10uF/25V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C7">
+      <fields>
+        <field name="Reference">C7</field>
+        <field name="Value">10uF/10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C8">
+      <fields>
+        <field name="Reference">C8</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="C9">
+      <fields>
+        <field name="Reference">C9</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">SMF12A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">BZT52C5V1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="F1">
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">MF-NSMF020X-2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">B3B-EH-A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">B3B-EH-A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">SWD + UART</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">B3B-PH-K-S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">B3B-PH-K-S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">33R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">150R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="R7">
+      <fields>
+        <field name="Reference">R7</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">STM32G031F8P6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PB7/PB8" type="bidirectional"/>
+        <pin num="2" name="PC14_/_OSC_IN" type="input"/>
+        <pin num="3" name="PC15-OSC32_OUT" type="bidirectional"/>
+        <pin num="4" name="VDD/VDDA" type="power_in"/>
+        <pin num="5" name="VSS/VSSA" type="power_in"/>
+        <pin num="6" name="PF2-NRST" type="bidirectional"/>
+        <pin num="7" name="PA0" type="bidirectional"/>
+        <pin num="8" name="PA1" type="bidirectional"/>
+        <pin num="9" name="PA2" type="bidirectional"/>
+        <pin num="10" name="PA3" type="bidirectional"/>
+        <pin num="11" name="PA4" type="bidirectional"/>
+        <pin num="12" name="PA5" type="bidirectional"/>
+        <pin num="13" name="PA6" type="bidirectional"/>
+        <pin num="14" name="PA7" type="bidirectional"/>
+        <pin num="15" name="PB0/PB1/PB2/PA8" type="bidirectional"/>
+        <pin num="16" name="PA11[PA9]" type="bidirectional"/>
+        <pin num="17" name="PA12[PA10]" type="bidirectional"/>
+        <pin num="18" name="PA13" type="bidirectional"/>
+        <pin num="19" name="PA15/PA14-BOOT0" type="bidirectional"/>
+        <pin num="20" name="PB3/PB4/PB5/PB6" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">LSM6DSV16XTR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO/SA0" type="tri_state"/>
+        <pin num="2" name="SDx/AH1/Qvar1" type="passive"/>
+        <pin num="3" name="SCx/AH2/Qvar2" type="passive"/>
+        <pin num="4" name="INT1" type="output"/>
+        <pin num="5" name="Vdd_IO" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="Vdd" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="OCS_Aux" type="input"/>
+        <pin num="11" name="SDO_Aux" type="tri_state"/>
+        <pin num="12" name="CS" type="input"/>
+        <pin num="13" name="SCL" type="input"/>
+        <pin num="14" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="U3">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">SN74LVC2G241DCUR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE#" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="2Y" type="tri_state"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="1Y" type="tri_state"/>
+        <pin num="7" name="2OE" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="U4">
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">HT7533-1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="Vin" type="power_in"/>
+        <pin num="3" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="imu_to_dxl" part="X1">
+      <fields>
+        <field name="Reference">X1</field>
+        <field name="Value">16MHz</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Tri-state" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUTPUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="imu_to_dxl">
+      <uri>${KIPRJMOD}/imu_to_dxl.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J3" pin="6" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VDD/VDDA_4" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="Vdd_IO_5" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="Vdd_8" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="Vout_3" pintype="power_out"/>
+      <node ref="X1" pin="1" pinfunction="Tri-state_1" pintype="input"/>
+      <node ref="X1" pin="4" pinfunction="VDD_4" pintype="power_in"/>
+    </net>
+    <net code="2" name="/DE" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PA1_8" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="1OE#_1" pintype="input"/>
+    </net>
+    <net code="3" name="/DXL_BUS" class="Default">
+      <node ref="D2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/DXL_DATA" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="2A_5" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="1Y_6" pintype="tri_state"/>
+    </net>
+    <net code="5" name="/IMU_INT1" class="Default">
+      <node ref="U1" pin="7" pinfunction="PA0_7" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="INT1_4" pintype="output"/>
+    </net>
+    <net code="6" name="/IMU_INT2" class="Default">
+      <node ref="U1" pin="15" pinfunction="PB0/PB1/PB2/PA8_15" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="INT2_9" pintype="output"/>
+    </net>
+    <net code="7" name="/MCU_RX" class="Default">
+      <node ref="U1" pin="10" pinfunction="PA3_10" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="2Y_3" pintype="tri_state"/>
+    </net>
+    <net code="8" name="/MCU_TX" class="Default">
+      <node ref="U1" pin="9" pinfunction="PA2_9" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="1A_2" pintype="input"/>
+    </net>
+    <net code="9" name="/NRST" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PF2-NRST_6" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/OSC_IN" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PC14_/_OSC_IN_2" pintype="input"/>
+    </net>
+    <net code="11" name="/RX_EN" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PB7/PB8_1" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="2OE_7" pintype="input"/>
+    </net>
+    <net code="12" name="/SPI_CS" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PA4_11" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="CS_12" pintype="input"/>
+    </net>
+    <net code="13" name="/SPI_MISO" class="Default">
+      <node ref="U1" pin="13" pinfunction="PA6_13" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="SDO/SA0_1" pintype="tri_state"/>
+    </net>
+    <net code="14" name="/SPI_MOSI" class="Default">
+      <node ref="U1" pin="14" pinfunction="PA7_14" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="SDA_14" pintype="input"/>
+    </net>
+    <net code="15" name="/SPI_SCK" class="Default">
+      <node ref="U1" pin="12" pinfunction="PA5_12" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="SCL_13" pintype="input"/>
+    </net>
+    <net code="16" name="/SWDCLK" class="Default">
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PA15/PA14-BOOT0_19" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/SWDIO" class="Default">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PA13_18" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/UART_RX" class="Default">
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PA12[PA10]_17" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/UART_TX" class="Default">
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PA11[PA9]_16" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="GND" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="3" pintype="passive"/>
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VSS/VSSA_5" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="SDx/AH1/Qvar1_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SCx/AH2/Qvar2_3" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(X1-OUTPUT)" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="OUTPUT_3" pintype="output"/>
+    </net>
+    <net code="22" name="VDD_BUS" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="VDD_F" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="Vin_2" pintype="power_in"/>
+    </net>
+    <net code="24" name="unconnected-(U1-PB3/PB4/PB5/PB6-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="PB3/PB4/PB5/PB6_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PC15-OSC32_OUT-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PC15-OSC32_OUT_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U2-OCS_Aux-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="OCS_Aux_10" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U2-SDO_Aux-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="SDO_Aux_11" pintype="tri_state+no_connect"/>
+    </net>
+  </nets>
+</export>

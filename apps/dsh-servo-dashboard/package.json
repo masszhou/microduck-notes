@@ -1,0 +1,11 @@
+{
+  "name": "@local/dsh-servo-dashboard",
+  "version": "1.0.5",
+  "private": true,
+  "type": "module",
+  "description": "Live multi-servo DYNAMIXEL dashboard for OpenRB-150 with bounded manual position control.",
+  "exports": {".": "./index.js", "./client": "./client.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg"},
+  "files": ["index.js", "controller.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "bin/servo-worker", "native/Cargo.toml", "native/Cargo.lock", "native/src", "native/CONTRACT.md", "native/build.sh", "native/VALIDATION.md", "README.md", "VALIDATION.md", "HOTFIX-1.0.5.md", "tests/*.test.mjs", "tests/transport-integration.mjs", "tests/native_*.py", "evidence/hardware-final.json", "evidence/hardware-commissioning-1.json"],
+  "scripts": {"test": "node --test tests/*.test.mjs", "check": "node --check index.js && node --check controller.js && node --check client.js", "build:native": "sh native/build.sh"},
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}, "client": {"platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-ui-layout", "@deepseek-ai/dsh-client-ui-sidebar", "@deepseek-ai/dsh-client-locale"]}}
+}

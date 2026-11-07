@@ -1,0 +1,19 @@
+[package]
+name = "mac-servo-bench"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Observable XL330 bench test through OpenRB-150"
+license = "MIT"
+
+[features]
+# macOS PTYs have no IOSSIOSPEED ioctl; test builds open only PTY paths at baud 0.
+pty-tests = []
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+rustypot = "=1.6.0"
+serialport = { version = "4.8", default-features = false }
+serde_json = "1"
+signal-hook = "0.3"

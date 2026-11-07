@@ -1,0 +1,20 @@
+{
+  "source": "Actual installed servo_dashboard tool results in this DSH session; not a simulator",
+  "bundleVersion": "1.0.2",
+  "workerVersion": "1.0.1",
+  "port": "/dev/cu.usbmodem1101",
+  "baud": 1000000,
+  "fullScanCompletedAt": 1794086213213,
+  "discoveredIds": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+  "models": "All 1200 (XL330-M288), firmware 53, Position mode 3, Secondary ID 255, Homing Offset 0",
+  "motionAuthorization": "Human confirmed origin180degrees; only IDs1..3 in170..190; only ID1 actually moved",
+  "id1Before": {"positionTicks":2071,"positionDeg":182.021484375,"goalTicks":2071,"torque":false,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0},
+  "outbound": {"commandId":"commission-id1-184-20261107","acceptedAt":1794086217769,"completedAt":1794086218473,"targetTicks":2094,"targetDeg":184.04296875,"presentTicksAtVerification":2088,"presentDegAtVerification":183.515625,"arrivalVerified":true,"readbackVerified":true,"unknown":false},
+  "observedDefect": "A new command from holding position was refused because firmware reported raw velocity1 (0.229RPM) despite stable encoder2088 for more than3seconds. No write on rejection. Fix candidate permits abs raw velocity<=1 and keeps goal-present<=1deg.",
+  "lease": "After heartbeat ended, controlledIds cleared and TorqueOFF/RAM restore occurred. A later release returned ID not touched; no automatic motion retry was attempted.",
+  "return": {"commandId":"commission-id1-restore-2071-off-20261107","acceptedAt":1794086245957,"completedAt":1794086246325,"targetTicks":2071,"targetDeg":182.021484375,"presentTicksAtVerification":2078,"presentDegAtVerification":182.63671875,"arrivalVerified":true,"readbackVerified":true,"unknown":false},
+  "id1AfterExplicitRelease": {"observedAt":1794086250281,"positionTicks":2076,"positionDeg":182.4609375,"torque":false,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0,"controlledIds":[],"error":null,"positionErrorFromInitialDeg":0.439453125},
+  "untouched11": {"torqueBefore":true,"torqueAfter":true,"goalTicks":2048,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0},
+  "untouched12": {"torqueBefore":true,"torqueAfter":true,"goalTicks":1866,"goalPwm":885,"profileVelocity":0,"profileAcceleration":0,"watchdog":0},
+  "limits": ["Arrival threshold1degree is not exact settling", "Readback after torque release can differ from the prior goal", "No physical motion or register writes were directed to IDs2..15", "Browser rendering and UI clicks were not exercised in this run"]
+}

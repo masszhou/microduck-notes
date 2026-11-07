@@ -1,0 +1,3 @@
+- insert:
+    - id: servo-dashboard
+      name: '@local/dsh-servo-dashboard'

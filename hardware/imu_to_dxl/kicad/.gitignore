@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.kicad_prl
+~*.lck
+*-backups/
+checks/initial-drc.json
