@@ -1,0 +1,25 @@
+[Unit]
+Description=IMX219 auto exposure and white balance (RK3566 ISP21)
+After=local-fs.target systemd-udev-trigger.service
+StartLimitIntervalSec=60
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=root
+Group=root
+Environment=LD_PRELOAD=/usr/local/lib/rkaiq-imx219/rkaiq_modinfo_shim.so
+Environment=persist_camera_engine_log=0x3ff1
+# The vendor stats thread requests SCHED_RR priority 20. Without this thread,
+# the engine can start but never update AE/AWB. Do not run it as plain devuser.
+LimitRTPRIO=30
+ExecStartPre=/usr/local/lib/rkaiq-imx219/prepare-camera.sh
+ExecStart=/usr/bin/rkaiq_3A_server
+KillMode=control-group
+Restart=on-failure
+RestartSec=3
+TimeoutStartSec=20
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target
